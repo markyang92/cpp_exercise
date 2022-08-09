@@ -2,7 +2,7 @@
     "configurations": [
         
         {
-            "name": "C/C++: clang++ 활성 파일 빌드 및 디버그",
+            "name": "C/C++: gdb",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
@@ -11,8 +11,8 @@
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
-            "MIMode": "lldb",
-            "preLaunchTask": "clang++ 활성 파일 빌드"
+            "MIMode": "gdb",
+            "preLaunchTask": "g++ 활성 파일 빌드"
         }
     ],
     "version": "2.0.0"

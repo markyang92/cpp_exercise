@@ -1,3 +1,3 @@
 #!/bin/bash
-/usr/bin/clang++ -std=c++14 -stdlib=libc++ -g ./main.cpp -o ./main
+/usr/bin/g++ -std=c++14 -g ./main.cpp -o ./main
 ./main

@@ -2,11 +2,10 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "clang++ 활성 파일 빌드",
-            "command": "/usr/bin/clang++",
+            "label": "g++ 활성 파일 빌드",
+            "command": "/usr/bin/g++",
             "args": [
                 "-std=c++14",
-                "-stdlib=libc++",
                 "-g",
                 "${file}",
                 "-o",
